@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@400;700&family=Source+Sans+Pro:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@500;800&display=swap');
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10vh 10vh;
+}
+.card-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 25vh;
+  padding-bottom: 25vh;
+}
+.card {
+  border-radius: 5px;
+  box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+  padding: 30px;
+  margin: 20px;
+  width: 400px;
+  transition: all 0.3s ease-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+ 
+.card p {
+  color: #a3a5ae;
+  font-size: 16px;
+}
+
+.blue {
+  border-left: 3px solid #4895ff;
+}
+ 
+.green {
+  border-left: 3px solid #3bb54a;
+}
+ 
+.red {
+  border-left: 3px solid #b3404a;
+}
+
+@media (max-width: 768px) {
+  .section-three{
+    display: flex;
+    justify-content: center;
+  }
+  .card-row{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (width: 320px) {
+  .card-row {
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+  }
+  .card {
+    padding: 3.0rem;
+    margin: 2.0rem;
+    width: 30.0rem;
+  }
+}

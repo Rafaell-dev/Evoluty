@@ -1,0 +1,14 @@
+.site-footer hr{
+  height: 1px;
+  background-color: white;
+}
+.site-footer h6 {
+  padding-top: 1rem;
+}
+.col-sm-12.col-md-6{
+  text-align: center;
+  margin: 0;
+}
+footer .row {
+  padding: 1.0rem;
+}

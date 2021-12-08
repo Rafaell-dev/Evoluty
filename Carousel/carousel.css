@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@500;800&display=swap');
+*{
+  background-color: #24252A;
+}
+html {
+  /* valor de root de font-size é 10px */
+  font-size: 62.5%;
+}
+h2 {
+  font-family: 'Exo 2', 'Roboto' ;
+  padding: 2.0rem;
+  font-size: 1.8rem;
+}
+.content-slide{
+  display: inline-block;
+  text-align: center;
+}
+.content-slide p{
+  width: 50%;
+  justify-content: center;
+  text-align: justify;
+  display: inline-block;
+}
+.content-slide p:last-child{
+  padding-top: 1.5rem;
+}
+
+@media (min-width: 1023px) {
+  h2 {
+  font-size: 2.0rem;
+  }
+}
+@media (max-width: 425px){
+  .content-slide p{
+    width: 70%;
+    padding-bottom: 1.5rem;
+  }
+  .glide__arrows{
+    display: none;
+  }
+}
