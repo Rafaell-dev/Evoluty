@@ -17,7 +17,7 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 li, a, button {
-font-family: 'Exo 2', 'Roboto' ;
+font-family: 'Exo 2', 'roboto' ;
 font-weight: 300px;
 font-size: 1.6rem;
 color: #edf0f1;
@@ -85,7 +85,7 @@ h1 {
     height: 100vh;
 }
 h2 {
-  font-family: 'Roboto';
+  font-family: 'roboto';
   text-decoration: none;
   text-align: center;
   padding: 2.0rem;
@@ -103,7 +103,7 @@ h3{
 }
 p {
   font-size: 1.6rem;
-  font-family: 'Roboto' sans-serif ;
+  font-family: 'roboto', sans-serif ;
   color: #edf0f1;
   line-height: 3.0rem;
   margin: 0rem 2.0rem 0rem;
